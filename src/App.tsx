@@ -1,11 +1,21 @@
-import * as React from 'react';
-import Header from './componenets/Header'
+import * as React from "react";
+import Header from "./componenets/Header/Header";
 
-class App extends React.Component {
+interface IState{
+  videoList: any
+}
+
+class App extends React.Component<{},IState>{
+
+
+
   public render() {
+     
+
     return (
+      
       <div>
-       <Header/>
+        <Header />
       </div>
     );
   }
